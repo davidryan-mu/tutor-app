@@ -1,0 +1,88 @@
+<html>
+<head>
+	<title>Assignment 4</title>
+	<script src="scripts/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="scripts/scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<audio id="1" src="sounds/a.mp3" type="audio/mpeg"></audio>
+	<audio id="2" src="sounds/i.mp3" type="audio/mpeg"></audio>
+	<audio id="3" src="sounds/u.mp3" type="audio/mpeg"></audio>
+	<audio id="4" src="sounds/e.mp3" type="audio/mpeg"></audio>
+	<audio id="5" src="sounds/o.mp3" type="audio/mpeg"></audio>
+	<audio id="6" src="sounds/ka.mp3" type="audio/mpeg"></audio>
+	<audio id="7" src="sounds/ki.mp3" type="audio/mpeg"></audio>
+	<audio id="8" src="sounds/ku.mp3" type="audio/mpeg"></audio>
+	<audio id="9" src="sounds/ke.mp3" type="audio/mpeg"></audio>
+	<audio id="10" src="sounds/ko.mp3" type="audio/mpeg"></audio>
+	<audio id="11" src="sounds/sa.mp3" type="audio/mpeg"></audio>
+	<audio id="12" src="sounds/shi.mp3" type="audio/mpeg"></audio>
+	<audio id="13" src="sounds/su.mp3" type="audio/mpeg"></audio>
+	<audio id="14" src="sounds/se.mp3" type="audio/mpeg"></audio>
+	<audio id="15" src="sounds/so.mp3" type="audio/mpeg"></audio>
+	<audio id="16" src="sounds/ta.mp3" type="audio/mpeg"></audio>
+	<audio id="17" src="sounds/chi.mp3" type="audio/mpeg"></audio>
+	<audio id="18" src="sounds/tsu.mp3" type="audio/mpeg"></audio>
+	<audio id="19" src="sounds/te.mp3" type="audio/mpeg"></audio>
+	<audio id="20" src="sounds/to.mp3" type="audio/mpeg"></audio>
+	<audio id="21" src="sounds/na.mp3" type="audio/mpeg"></audio>
+	<audio id="22" src="sounds/ni.mp3" type="audio/mpeg"></audio>
+	<audio id="23" src="sounds/nu.mp3" type="audio/mpeg"></audio>
+	<audio id="24" src="sounds/ne.mp3" type="audio/mpeg"></audio>
+	<audio id="25" src="sounds/no.mp3" type="audio/mpeg"></audio>
+	<audio id="26" src="sounds/ha.mp3" type="audio/mpeg"></audio>
+	<audio id="27" src="sounds/hi.mp3" type="audio/mpeg"></audio>
+	<audio id="28" src="sounds/fu.mp3" type="audio/mpeg"></audio>
+	<audio id="29" src="sounds/he.mp3" type="audio/mpeg"></audio>
+	<audio id="30" src="sounds/ho.mp3" type="audio/mpeg"></audio>
+	<audio id="31" src="sounds/ma.mp3" type="audio/mpeg"></audio>
+	<audio id="32" src="sounds/mi.mp3" type="audio/mpeg"></audio>
+	<audio id="33" src="sounds/mu.mp3" type="audio/mpeg"></audio>
+	<audio id="34" src="sounds/me.mp3" type="audio/mpeg"></audio>
+	<audio id="35" src="sounds/mo.mp3" type="audio/mpeg"></audio>
+	<audio id="36" src="sounds/ya.mp3" type="audio/mpeg"></audio>
+	<audio id="37" src="sounds/yu.mp3" type="audio/mpeg"></audio>
+	<audio id="38" src="sounds/yo.mp3" type="audio/mpeg"></audio>
+	<audio id="39" src="sounds/ra.mp3" type="audio/mpeg"></audio>
+	<audio id="40" src="sounds/ri.mp3" type="audio/mpeg"></audio>
+	<audio id="41" src="sounds/ru.mp3" type="audio/mpeg"></audio>
+	<audio id="42" src="sounds/re.mp3" type="audio/mpeg"></audio>
+	<audio id="43" src="sounds/ro.mp3" type="audio/mpeg"></audio>
+	<audio id="44" src="sounds/wa.mp3" type="audio/mpeg"></audio>
+	<audio id="45" src="sounds/wo.mp3" type="audio/mpeg"></audio>
+	<audio id="46" src="sounds/n.mp3" type="audio/mpeg"></audio>
+</head>
+
+<body>
+	<div class="header">
+		<h1>Hiragana Tutor</h1>
+	</div>
+
+	<div class="mode">
+		<h2><div class="inactive"><a href="../index.html">Study Mode</a></div> | <div class="inactive"><a href="quiz.html">Quiz Mode</a></div> | <div class="active"><a href="progress.html">View Progress</a></div></h2>
+	</div>
+
+	<div id="container_quiz">
+		<div id="login_progress">
+			<p>Please log in to view your progress</p>
+
+			<form method="post" action="login.php">
+				<input type="text" id="username" placeholder="Username"><br />
+				<input type="password" id="password" placeholder="Password"><br />
+				<input type="button" value="Log In" id="login_progress_button">
+				<input type="button" value="Sign Up" id="signup_progress_button">
+			</form>
+
+			<div id="response_progress"></div>
+		</div>
+
+		<div id="show_progress">
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>Images sourced from <a href="https://commons.wikimedia.org/wiki/Category:Hiragana_stroke_order_(animated_image_set)" target="_blank" class="footer">Wikipedia</a>.</p>
+		<p>Sounds sourced from <a href="http://www.guidetojapanese.org/learn/complete/hiragana" target="_blank" class="footer">www.guidetojapanese.org</a>.</p>
+	</div>
+</body>
+</html>
